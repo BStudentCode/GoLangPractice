@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(j)
 
 	var a float32 = 42.5
-	fmt.Printf("%v, %T\n", a, a)
+	fmt.Printf("%v, %T\n", a, a) //There is documentation for Printf, the variable is passed twice because we used two % flags
 
 	var b int
 	b = int(a) //CASTING
